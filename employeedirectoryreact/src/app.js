@@ -1,8 +1,14 @@
 import React from "react";
 import Header from "./components/header"
+import Search from "./components/search"
 
 function App() {
-    return <Header />;
+    return (
+        <div className="container">
+            <Header />
+            <Search />
+        </div>
+    )
 }
 
 export default App;
