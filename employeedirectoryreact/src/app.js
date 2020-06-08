@@ -25,10 +25,10 @@ class App extends Component {
           [name]: value
         });
     
-        //creating a new array by taking in new search value by using filter
+        
         let newResult = this.state.result.filter(employee =>{
           // console.log(employee.name.first.toLowerCase().indexOf(this.state.search), employee.name,employee.name.last.toLowerCase().indexOf(this.state.search))
-          return employee.name.first.toLowerCase().indexOf(value)>-1 || employee.name.last.toLowerCase().indexOf(value)>-1
+          return employee.name.first.indexOf(value)>-1 || employee.name.last.indexOf(value)>-1
         })
         //this updates the existing result state
         this.setState({
