@@ -1,6 +1,6 @@
 import React from "react";
 
-function Search(props) {
+function Table(props) {
     return (
         <div className="nav-content">
             <form onSubmit={(e)=>e.preventDefault()}>
@@ -22,4 +22,4 @@ function Search(props) {
 }
         
 
-export default Search;
+export default Table;
