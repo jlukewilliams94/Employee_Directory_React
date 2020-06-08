@@ -56,7 +56,7 @@ class App extends Component {
                             <th>Name</th>
                             <th>Picture</th>
                             <th>City</th>
-                            <th>State</th>
+                            <th>Phone</th>
                             <th>Email</th>
                         </tr>
                     </thead>
@@ -67,7 +67,7 @@ class App extends Component {
                         picture={element.picture.medium}
                         city={element.location.city}
                         email={element.email}
-                        state={element.location.state}
+                        phone={element.phone}
                         />
                     ))}
                 </table>
