@@ -6,7 +6,7 @@ function Search(props) {
             <tbody>
                 <tr>
                     <td>{props.name}</td>
-                    <td href={props.picture}></td>
+                    <td><img src={props.picture} alt=""></img></td>
                     <td>{props.city}</td>
                     <td>{props.state}</td>
                     <td>{props.email}</td>

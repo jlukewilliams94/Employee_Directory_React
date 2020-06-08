@@ -5,7 +5,7 @@ function Table(props) {
         <div className="nav-content">
             <form onSubmit={(e)=>e.preventDefault()}>
                 <div className="input-field">
-                    <label class="label-icon" for="search"><i class="material-icons"></i></label>
+                    <label className="label-icon" htmlFor="search"><i className="material-icons"></i></label>
                     <input
                     onChange={props.handleInputChange}
                     value={props.search}
